@@ -56,6 +56,19 @@ The reduced performance is also due to irregularity in the camera angle for each
 The dataset used for training was manually constructed by obtaining the full length videos and then trimming out each ball from it.  The time interval was annotated manually so while trimming there are some instances where frames containing vital information like batsman and bowler are distorted. So this also plays a role in the decreased accuracy of the classification scores.  
 
 ## Results
+<img src="examples/fll.png" width="1500px" height="150px"/>
+
+For this eg, bowler and batsman type is incorrectly classfied as no proper information is present about it in all frames.
+
+<img src="examples/fll1.png" width="1500px" height="150px"/>
+
+For this eg, shot type is incorrectly classified as the sequence of frames is irregular.
+
+Below are the two examples where all the three labels are correctly classified.
+
+<img src="examples/fll2.png" width="1500px" height="150px"/>
+
+<img src="examples/fll3.png" width="1500px" height="150px"/>
 
 
 ## Follow-up work
