@@ -41,7 +41,7 @@ Since attention mechanism is used instead of obtaining the feature vector from t
 So at each time step the model learns to concentrate only on certain regions which helps in accurate classification. 
 
 ## Training
-For running the model from terminal use`python train_and_validate.py`
+For training the model from terminal use`python train_and_validate.py`
 
 The model was trained with and without using attention. The model with attention showed better results compared to the other. Since it is a small dataset it was easily overfitting the training data and performed poorly on the validation set. So L2 regulariztion was included in the loss to prevent this.
 
